@@ -1,9 +1,9 @@
-import logo from "../images/logo.png";
+import logo from "../assets/logo.png";
 
 function Navbar() {
   return (
-    <nav class="navbar">
-      <a class="navbar-brand" href="/">
+    <nav className="navbar">
+      <a className="navbar-brand" href="/">
         <img src={logo} width="60" height="40" />
         Ikaya Design Studio
       </a>
