@@ -13,17 +13,17 @@ function Navbar() {
         <div className="collapse navbar-collapse d-flex justify-content-center">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item px-5">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#about">
                 About
               </a>
             </li>
             <li className="nav-item px-5">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#work">
                 Work
               </a>
             </li>
             <li className="nav-item px-5">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#contact">
                 Contact
               </a>
             </li>

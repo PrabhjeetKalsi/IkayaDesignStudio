@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="p-5">
+    <div className="p-5" id="contact">
       <h3>Contact</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
