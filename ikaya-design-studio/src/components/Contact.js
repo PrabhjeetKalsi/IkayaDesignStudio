@@ -1,22 +1,39 @@
+import instaLogo from "../assets/instaLogo.png";
+import whatsappLogo from "../assets/whatsappLogo.png";
+import googleCalendarLogo from "../assets/googleCalendarLogo.png";
+
 function Contact() {
   return (
     <div className="p-5" id="contact">
-      <h3>Contact</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Lacus sed viverra
-        tellus in hac habitasse platea. Bibendum at varius vel pharetra vel
-        turpis nunc eget lorem. Orci a scelerisque purus semper eget duis at
-        tellus at. Nam at lectus urna duis convallis convallis tellus.
-        Adipiscing elit ut aliquam purus sit. Fermentum posuere urna nec
-        tincidunt. Nulla at volutpat diam ut venenatis tellus in. Mattis
-        ullamcorper velit sed ullamcorper morbi tincidunt ornare. Id leo in
-        vitae turpis massa. Consectetur libero id faucibus nisl tincidunt eget.
-        Mauris ultrices eros in cursus turpis. Ut sem nulla pharetra diam. Porta
-        lorem mollis aliquam ut. Nulla at volutpat diam ut venenatis tellus in
-        metus. Pellentesque dignissim enim sit amet venenatis urna cursus eget
-        nunc.
-      </p>
+      <h3 className="d-flex justify-content-center">Contact</h3>
+      <div className="d-flex justify-content-center p-1">
+        <a
+          href="https://www.instagram.com/studioikaya/"
+          target="_blank"
+          className="p-2"
+          title="Visit instagram page"
+          rel="noreferrer"
+        >
+          <img src={instaLogo} width="40" height="40" alt="insta" />
+        </a>
+        <a
+          href="https://wa.me/918708857906"
+          target="_blank"
+          className="p-2 m-1"
+          title="Contact on whatsapp"
+          rel="noreferrer"
+        >
+          <img src={whatsappLogo} width="30" height="30" alt="whatsapp" />
+        </a>
+        <a
+          className="p-2 m-1"
+          title="Create a google calendar invite"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+        >
+          <img src={googleCalendarLogo} width="30" height="30" alt="calendar" />
+        </a>
+      </div>
     </div>
   );
 }
