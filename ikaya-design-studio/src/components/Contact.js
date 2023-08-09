@@ -28,8 +28,9 @@ function Contact() {
         <a
           className="p-2 m-1"
           title="Create a google calendar invite"
-          data-toggle="modal"
-          data-target="#exampleModalCenter"
+          data-bs-toggle="modal"
+          data-bs-target="#formModal"
+          href="/"
         >
           <img src={googleCalendarLogo} width="30" height="30" alt="calendar" />
         </a>
